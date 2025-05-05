@@ -276,6 +276,53 @@ footer {
   margin-top: 20px;
 }
 
-
-
-
+.category-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+.feed-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px;
+  justify-content: center;
+}
+.feed-scroll img {
+  height: 200px;
+  width: auto;
+  border-radius: 10px;
+}
+.feed-section {
+  text-align: center;
+  margin-top: 40px;
+}
+.review-form {
+  text-align: center;
+  margin-top: 40px;
+}
+.review-form input,
+.review-form textarea {
+  width: 80%;
+  max-width: 500px;
+}
+.review {
+  margin-top: 10px;
+  background-color: #1c1c1c;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+}
+.gallery-grid {
+  animation: fadeIn 0.8s ease-in forwards;
+}
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+.view-all {
+  text-align: center;
+  margin-top: 20px;
+}
